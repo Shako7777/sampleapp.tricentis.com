@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>sampleapp.tricentis.com</groupId>
+	<artifactId>sampleapp.tricentis.com</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Sample App</name>
+	<description>Teste Técnico Web</description>
+
+	<dependencies>
+		<!-- Dependência do Cucumber -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.18.1</version>
+			<scope>test</scope>
+			
+		</dependency><dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>7.18.1</version>
+			<scope>test</scope>
+		</dependency>
+
+				
+		<!-- Dependência do Selenium WebDriver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.9.0</version>
+		</dependency>
+
+		<!-- Dependência do ChromeDriver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>4.9.0</version>
+		</dependency>
+
+		<!-- Dependência do JUnit para integração com o Cucumber -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+
+</project>
